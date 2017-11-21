@@ -1,0 +1,40 @@
+<idea-plugin>
+  <id>com.solutionloft.pyclippy</id>
+  <name>PyClippy - Find and reuse Python code snippets</name>
+  <version>0.0.1</version>
+  <vendor email="hello@solutionloft.com" url="http://www.solutionloft.com">SolutionLoft</vendor>
+
+  <description><![CDATA[
+      PyClippy is a PyCharm plugin intended to make it easy to find and
+      reuse code. Find examples, best practices, and quality blocks of code
+      without leaving the flow of your IDE.<br /><br />
+
+      Currently in beta, PyClippy returns StackOverflow answers that serve as a proxy for the above features.
+    ]]></description>
+
+  <change-notes><![CDATA[
+      <h2>0.0.1</h2>
+      Date: TBD
+      Initial release
+    ]]>
+  </change-notes>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="172.0"/>
+
+  <!-- IntelliJ (uncomment this and comment the PyCharm dependency to switch) -->
+  <!--<depends>com.intellij.modules.lang</depends>-->
+
+  <!-- PyCharm -->
+  <depends>com.intellij.modules.python</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <toolWindow id="PyClippyMainWindow" anchor="bottom" factoryClass="com.solutionloft.pyclippy.MainWindowFactory" />
+    <!-- Add your extensions here -->
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+  </actions>
+
+</idea-plugin>
