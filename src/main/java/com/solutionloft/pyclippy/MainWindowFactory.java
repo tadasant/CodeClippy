@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.solutionloft.pyclippy.controller;
+package com.solutionloft.pyclippy;
 
 import com.intellij.openapi.project.Project;
 import com.intellij.openapi.wm.ToolWindow;

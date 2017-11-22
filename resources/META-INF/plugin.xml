@@ -29,7 +29,7 @@
   <depends>com.intellij.modules.python</depends>
 
   <extensions defaultExtensionNs="com.intellij">
-    <toolWindow id="PyClippy" anchor="right" factoryClass="com.solutionloft.pyclippy.controller.MainWindowFactory" />
+    <toolWindow id="PyClippy" anchor="right" factoryClass="com.solutionloft.pyclippy.MainWindowFactory" />
     <!-- Add your extensions here -->
   </extensions>
 
