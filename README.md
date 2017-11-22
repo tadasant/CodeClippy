@@ -6,7 +6,7 @@ Initially, PyClippy's goal is to provide access to querying SolutionLoft's datab
 
 ## Getting Started # TODO
 
-This section will eventually be updated with instructions for running PyClippy locally. Eventually PyClippy will be hosted on JetBrains' IntelliJ IDEA Plugin repository.
+This section will eventually be updated with instructions for using PyClippy. Eventually PyClippy will be hosted on JetBrains' IntelliJ IDEA Plugin repository.
 
 ### Prerequisites
 
@@ -22,7 +22,10 @@ This section will eventually be updated with instructions for running PyClippy's
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://github.com/SolutionLoft/PyClippy/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](https://github.com/SolutionLoft/PyClippy/blob/master/CONTRIBUTING.md) for details on our
+code of conduct, and the process for submitting pull requests to us.
+
+There you will also find instructions for getting set up to develop locally.
 
 ## Versioning # TODO
 
