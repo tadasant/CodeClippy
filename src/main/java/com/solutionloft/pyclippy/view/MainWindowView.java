@@ -14,17 +14,18 @@
  * limitations under the License.
  */
 
-package com.solutionloft.pyclippy;
+package com.solutionloft.pyclippy.view;
 
-import com.intellij.openapi.project.Project;
-import com.intellij.openapi.wm.ToolWindow;
-import com.intellij.openapi.wm.ToolWindowFactory;
-import org.jetbrains.annotations.NotNull;
+import javax.swing.JPanel;
+import javax.swing.JLabel;
 
-public class MainWindowFactory implements ToolWindowFactory {
+public class MainWindowView extends JPanel {
+    private JPanel mainWindowPanel;
+    private JLabel title;
+    private LoginView loginView;
 
-    @Override
-    public void createToolWindowContent(@NotNull Project project, @NotNull ToolWindow toolWindow) {
-        System.out.println("Rendering tool window.");
+    public MainWindowView() {
+        super();
+        add(mainWindowPanel);
     }
 }
