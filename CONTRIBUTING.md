@@ -18,9 +18,9 @@ Because we integrate with JIRA to track our development progress, please prepend
 ticket from our [JIRA board](https://solutionloft.atlassian.net/projects/PYC/issues). E.g. if you're working on
 PYC-6 Maven Integration, your commit messages should look something like:
 
-"PYC-6 Added maven skeleton"
-"PYC-6 Included PyClippy metadata in maven"
-"PYC-6 Added JxBrowser to maven"
+"PYC-6 Added maven skeleton"  
+"PYC-6 Included PyClippy metadata in maven"  
+"PYC-6 Added JxBrowser to maven"  
 
 # Local Development Setup
 
