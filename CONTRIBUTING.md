@@ -6,6 +6,22 @@ After we've released a beta version of the plugin, we'll take more time to forma
 
 If you have design advice, feature requests (keeping scope within reason), small bugs/bugfixes, or other comments to contribute, feel free to raise Issues!
 
+# Product Management
+
+Please use the standard GitHub issue tracker to raise any suggestions, feature requests, etc. If we decide to
+add the issue to the development roadmap, we'll create an issue in our [JIRA board](https://solutionloft.atlassian.net/projects/PYC/issues),
+and development may commence with the commit message scheme described below.
+
+# Commit Messages
+
+Because we integrate with JIRA to track our development progress, please prepend ALL commit messages with the appropriate
+ticket from our [JIRA board](https://solutionloft.atlassian.net/projects/PYC/issues). E.g. if you're working on
+PYC-6 Maven Integration, your commit messages should look something like:
+
+"PYC-6 Added maven skeleton"
+"PYC-6 Included PyClippy metadata in maven"
+"PYC-6 Added JxBrowser to maven"
+
 # Local Development Setup
 
 We recommend the following setup:
