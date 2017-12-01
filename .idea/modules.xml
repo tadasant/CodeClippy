@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/PyClippy.iml" filepath="$PROJECT_DIR$/PyClippy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CodeClippy.iml" filepath="$PROJECT_DIR$/CodeClippy.iml" />
     </modules>
   </component>
 </project>
