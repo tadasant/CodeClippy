@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.solutionloft.pyclippy;
+package com.solutionloft.codeclippy;
 
 import com.intellij.openapi.project.Project;
 import com.intellij.openapi.wm.ToolWindow;
 import com.intellij.openapi.wm.ToolWindowFactory;
 import com.intellij.ui.content.Content;
-import com.solutionloft.pyclippy.view.MainWindowView;
+import com.solutionloft.codeclippy.view.MainWindowView;
 import org.jetbrains.annotations.NotNull;
 
 public class MainWindowFactory implements ToolWindowFactory {
