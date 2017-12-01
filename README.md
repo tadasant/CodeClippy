@@ -1,6 +1,6 @@
 # PyClippy
 
-Our mission is to make it easy for developers to write high quality code. CodeClippy is an Atom plugin that aims to act as a gateway for enabling this vision.
+Our mission is to make it easy for developers to write high quality code. CodeClippy is a PyCharm plugin that aims to act as a gateway for enabling this vision.
 
 Initially, CodeClippy will provide access to SolutionLoft's querying engine of indexed StackOverflow questions and answers, allowing the user to interact with StackOverflow Q/A without leaving the comfort of his or her editor.
 
