@@ -1,6 +1,6 @@
 # Introduction
 
-Thank you for considering contributing to PyClippy! We're actively developing this plugin, and would love your contributions and advice as we go along. Because we expect to be moving at a quick pace, please email tadas [at] solutionloft.com if you want to get involved in building features or contributing substantial pieces of code so we can discuss a plan of action for getting you in our development flow.
+Thank you for considering contributing to CodeClippy! We're actively developing this plugin, and would love your contributions and advice as we go along. Because we expect to be moving at a quick pace, please email tadas [at] solutionloft.com if you want to get involved in building features or contributing substantial pieces of code so we can discuss a plan of action for getting you in our development flow.
 
 After we've released a beta version of the plugin, we'll take more time to formalize a code of conduct, style guidelines, and the like without needing the overhead of an email-based discussion.
 
@@ -19,13 +19,13 @@ ticket from our [JIRA board](https://solutionloft.atlassian.net/projects/PYC/iss
 PYC-6 Maven Integration, your commit messages should look something like:
 
 "PYC-6 Added maven skeleton"  
-"PYC-6 Included PyClippy metadata in maven"  
+"PYC-6 Included CodeClippy metadata in maven"  
 "PYC-6 Added JxBrowser to maven"  
 
 # Local Development Setup
 
 We recommend the following setup:
-* Write PyClippy code on IntelliJ IDEA Ultimate
+* Write CodeClippy code on IntelliJ IDEA Ultimate
 * Test functionality by pointing your run configuration at PyCharm Ultimate
 * Have IntelliJ IDEA Community Edition (CE) source code checked out in case you need to do in-depth debugging
 
@@ -38,11 +38,11 @@ Steps to follow for setting up your development environment:
 CE for debugging.
 4) [Check out and build the source code for IDEA CE](http://www.jetbrains.org/intellij/sdk/docs/basics/checkout_and_build_community.html)
 5) [Configure the IntelliJ Platform SDK](http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/setting_up_environment.html#configuring-intellij-platform-sdk)
-6) Fire up IDEA for development, and VCS checkout from repository this PyClippy repository
+6) Fire up IDEA for development, and VCS checkout from repository this CodeClippy repository
 7) Depending on your versions, directories, you may need to to adjust the "Plugin (PyCharm)" and "Plugin (IntelliJ CE)"
 run configurations (dropdown arrow -> Edit Configurations...) so that they point to the correct JREs (PyCharm's JRE
 and the *non-source-code* JRE of IDEA CE).
-8) At this point, you should be able to run the Plugin (PyCharm) run configuration and see PyClippy show up in the
+8) At this point, you should be able to run the Plugin (PyCharm) run configuration and see CodeClippy show up in the
 right toolbar.
 
 Useful projects to download the source for to use as reference:
@@ -65,4 +65,4 @@ See plugin.xml if you want to toggle between being able to run locally on PyChar
 
 # Contribution License Agreement (CLA)
 
-We have no CLA for contributors to sign; contributions to PyClippy are governed by the "license in = license out" model of Apache 2.0.
+We have no CLA for contributors to sign; contributions to CodeClippy are governed by the "license in = license out" model of Apache 2.0.
