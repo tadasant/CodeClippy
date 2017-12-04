@@ -20,15 +20,19 @@ import com.intellij.openapi.project.Project;
 import com.intellij.openapi.wm.ToolWindow;
 import com.intellij.openapi.wm.ToolWindowFactory;
 import com.intellij.ui.content.Content;
-import com.solutionloft.codeclippy.view.MainWindowView;
+import com.teamdev.jxbrowser.chromium.Browser;
+import com.teamdev.jxbrowser.chromium.swing.BrowserView;
 import org.jetbrains.annotations.NotNull;
 
 public class MainWindowFactory implements ToolWindowFactory {
 
     @Override
     public void createToolWindowContent(@NotNull Project project, @NotNull ToolWindow toolWindow) {
-        MainWindowView mainWindow = new MainWindowView();
-        Content content = toolWindow.getContentManager().getFactory().createContent(mainWindow, "", false);
+        Browser browser = new Browser();
+        BrowserView view = new BrowserView(browser);
+        Content content = toolWindow.getContentManager().getFactory().createContent(view, "", false);
         toolWindow.getContentManager().addContent(content);
+
+        browser.loadHTML("<html><body><h1>Hello World!</h1></body></html>");
     }
 }
