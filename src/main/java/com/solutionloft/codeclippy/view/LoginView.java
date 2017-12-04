@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.solutionloft.pyclippy.view;
+package com.solutionloft.codeclippy.view;
 
 import javax.swing.JPanel;
 import javax.swing.JPasswordField;

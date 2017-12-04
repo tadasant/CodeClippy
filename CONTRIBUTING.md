@@ -9,18 +9,18 @@ If you have design advice, feature requests (keeping scope within reason), small
 # Product Management
 
 Please use the standard GitHub issue tracker to raise any suggestions, feature requests, etc. If we decide to
-add the issue to the development roadmap, we'll create an issue in our [JIRA board](https://solutionloft.atlassian.net/projects/PYC/issues),
+add the issue to the development roadmap, we'll create an issue in our [JIRA board](https://solutionloft.atlassian.net/projects/CCY/issues),
 and development may commence with the commit message scheme described below.
 
 # Commit Messages
 
 Because we integrate with JIRA to track our development progress, please prepend ALL commit messages with the appropriate
-ticket from our [JIRA board](https://solutionloft.atlassian.net/projects/PYC/issues). E.g. if you're working on
-PYC-6 Maven Integration, your commit messages should look something like:
+ticket from our [JIRA board](https://solutionloft.atlassian.net/projects/CCY/issues). E.g. if you're working on
+CCY-6 Maven Integration, your commit messages should look something like:
 
-"PYC-6 Added maven skeleton"  
-"PYC-6 Included CodeClippy metadata in maven"  
-"PYC-6 Added JxBrowser to maven"  
+"CCY-6 Added maven skeleton"  
+"CCY-6 Included CodeClippy metadata in maven"  
+"CCY-6 Added JxBrowser to maven"  
 
 # Local Development Setup
 
