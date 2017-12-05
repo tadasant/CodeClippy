@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.solutionloft.codeclippy;
+package com.solutionloft.codeclippy.controller;
 
 import com.intellij.openapi.project.Project;
 import com.intellij.openapi.wm.ToolWindow;

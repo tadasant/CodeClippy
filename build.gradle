@@ -21,6 +21,12 @@ intellij {
 group 'org.jetbrains'
 version '0.1.0' // Plugin version
 
+repositories {
+    mavenCentral()
+}
+
 dependencies {
     compile fileTree(dir: 'lib', include: '*.jar')
+    compile 'org.glassfish.jersey.core:jersey-client:2.26'
+    compile 'org.glassfish.jersey.media:jersey-media-json-jackson:2.26'
 }
