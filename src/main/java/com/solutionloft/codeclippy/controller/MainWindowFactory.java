@@ -16,6 +16,7 @@
 
 package com.solutionloft.codeclippy.controller;
 
+import com.intellij.openapi.project.DumbAware;
 import com.intellij.openapi.project.Project;
 import com.intellij.openapi.wm.ToolWindow;
 import com.intellij.openapi.wm.ToolWindowFactory;
@@ -24,7 +25,12 @@ import com.teamdev.jxbrowser.chromium.Browser;
 import com.teamdev.jxbrowser.chromium.swing.BrowserView;
 import org.jetbrains.annotations.NotNull;
 
-public class MainWindowFactory implements ToolWindowFactory {
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+
+public class MainWindowFactory implements ToolWindowFactory, DumbAware {
 
     @Override
     public void createToolWindowContent(@NotNull Project project, @NotNull ToolWindow toolWindow) {
@@ -33,6 +39,23 @@ public class MainWindowFactory implements ToolWindowFactory {
         Content content = toolWindow.getContentManager().getFactory().createContent(view, "", false);
         toolWindow.getContentManager().addContent(content);
 
+//        browser.loadHTML(this.getHtmlEntryPoint());
         browser.loadHTML("<html><body><h1>Hello World!</h1></body></html>");
+    }
+
+    private String getHtmlEntryPoint() {
+        InputStream resourceAsStream = this.getClass().getResourceAsStream("/ui-build/index.html");
+        String html = null;
+        try (BufferedReader urlReader = new BufferedReader(new InputStreamReader(resourceAsStream))) {
+            StringBuilder builder = new StringBuilder();
+            String row;
+            while ((row = urlReader.readLine()) != null) {
+                builder.append(row);
+            }
+            html = builder.toString();
+        }  catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+        return html;
     }
 }

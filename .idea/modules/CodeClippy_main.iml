@@ -30,6 +30,15 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../lib/jxbrowser-linux64-6.17.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
           <root url="jar://$MODULE_DIR$/../../lib/jxbrowser-mac-6.17.jar!/" />
         </CLASSES>
         <JAVADOC />
@@ -40,15 +49,6 @@
       <library>
         <CLASSES>
           <root url="jar://$MODULE_DIR$/../../lib/license.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../lib/jxbrowser-linux64-6.17.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
