@@ -22,7 +22,30 @@ CCY-6 Maven Integration, your commit messages should look something like:
 "CCY-6 Included CodeClippy metadata in maven"  
 "CCY-6 Added JxBrowser to maven"  
 
-# Local Development Setup
+Branches should follow this convention:
+
+"CCY-6_Maven_Integration"  
+
+# Local Development Setup (Gradle)
+
+The quickest way to get started is to leverage the included Gradle tasks. Make sure you have enabled the Gradle plugin
+that comes with IntelliJ, and that you additionally download, install, and enable gradle-intellij-plugin (the plugin
+that generates Gradle tasks used in the development of IntelliJ plugins).
+
+1) git clone this repository
+2) Open in IntelliJ
+3) Make edits to build.gradle if you don't have PyCharm at /Applications/PyCharm.app
+4) If you want to run on IDEA instead of PyCharm, change both plugin.xml and build.gradle
+5) Run the gradle task "runIdea". This may take a long time because it will download the relevant version of the IDEA
+ that you referenced. Then this will run the plugin in your chosen alternativeIDE or downloaded IDEA CE.
+
+Note that debugging does not work properly with the above setup. It *should* work if we just run the gradle task
+in IntelliJ's debug mode, but breakpoints don't seem to work. Would love a pull request to resolve this issue!
+
+# Legacy Instructions Setup (No Gradle)
+
+**WARNING**: You probably only need pieces of these instructions to sufficiently set up a debuggable environment alongside
+an otherwise stable Gradle project as per the above instructions. A pull request to clean these up would be awesome!
 
 We recommend the following setup:
 * Write CodeClippy code on IntelliJ IDEA Ultimate
@@ -60,7 +83,7 @@ Useful bookmarks:
 
 # Architecture Notes
 
-See plugin.xml if you want to toggle between being able to run locally on PyCharm versus IDEA CE.
+See build.gradle and plugin.xml if you want to toggle between being able to run locally on PyCharm versus IDEA CE.
 
 
 # Contribution License Agreement (CLA)

@@ -9,7 +9,6 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="codeclippy_main" />
     <orderEntry type="module-library">
       <library>
         <CLASSES>
@@ -22,7 +21,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../lib/jxbrowser-win32-6.17.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../lib/jxbrowser-linux64-6.17.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -40,16 +39,17 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../lib/jxbrowser-mac-6.17.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../lib/jxbrowser-win32-6.17.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="module" module-name="codeclippy_main" />
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../lib/jxbrowser-linux64-6.17.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../lib/jxbrowser-mac-6.17.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
