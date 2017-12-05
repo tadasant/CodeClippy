@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/CodeClippy.iml" filepath="$PROJECT_DIR$/CodeClippy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/codeclippy.iml" filepath="$PROJECT_DIR$/.idea/modules/codeclippy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/codeclippy_main.iml" filepath="$PROJECT_DIR$/.idea/modules/codeclippy_main.iml" group="codeclippy" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/codeclippy_test.iml" filepath="$PROJECT_DIR$/.idea/modules/codeclippy_test.iml" group="codeclippy" />
     </modules>
   </component>
 </project>

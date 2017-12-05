@@ -1,4 +1,4 @@
-/*
+package endtoend;/*
  * Copyright (c) 2017 SolutionLoft.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -14,6 +14,6 @@
  * limitations under the License.
  */
 
-public class OpenToolWindowTest {
-    // TODO implement functional test for opening the tool window
+public class LoginTest {
+    // TODO implement end to end test for logging in
 }
