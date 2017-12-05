@@ -4,7 +4,7 @@ Our mission is to make it easy for developers to write high quality code. CodeCl
 
 Initially, CodeClippy will provide access to SolutionLoft's querying engine of indexed StackOverflow questions and answers, allowing the user to interact with StackOverflow Q/A without leaving the comfort of his or her editor.
 
-## Getting Started # TODO
+## Getting Started
 
 This section will eventually be updated with instructions for using CodeClippy. Eventually CodeClippy will be hosted on JetBrains' IntelliJ IDEA Plugin repository.
 
@@ -12,7 +12,7 @@ This section will eventually be updated with instructions for using CodeClippy. 
 
 ### Installing
 
-## Running tests # TODO
+## Running tests
 
 This section will eventually be updated with instructions for running CodeClippy's automated test suite on your local system.
 
@@ -27,7 +27,7 @@ code of conduct, and the process for submitting pull requests to us.
 
 There you will also find instructions for getting set up to develop locally.
 
-## Versioning # TODO
+## Versioning
 
 This section will eventually be updated with details about CodeClippy's versioning system.
 
@@ -42,7 +42,5 @@ See also the list of [contributors](https://github.com/SolutionLoft/CodeClippy/c
 
 This project is licensed under the Apache 2.0 License - see the [LICENSE.md](LICENSE.md) file for details
 
-## Acknowledgments # TODO
-
-This section will eventually be updated with details about CodeClippy's versioning system.
+## Acknowledgments
 
