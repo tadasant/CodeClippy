@@ -5,7 +5,7 @@ import com.solutionloft.codeclippy.model.search.model.SearchResponse;
 import javax.ws.rs.client.Client;
 import javax.ws.rs.client.ClientBuilder;
 import javax.ws.rs.client.WebTarget;
-import javax.ws.rs.core.Response;
+import javax.ws.rs.core.MediaType;
 
 public class JerseyRequestSearch implements RequestSearch {
 
@@ -20,8 +20,14 @@ public class JerseyRequestSearch implements RequestSearch {
 
     @Override
     public SearchResponse requestAnswers(String query) {
-        Response response = this.target.request().get();
+        SearchResponse searchResponse = this.target.queryParam("query", "java hello world").request(MediaType.APPLICATION_JSON).get(SearchResponse.class);
         // TODO [TA]: retry logic
-        return response.readEntity(SearchResponse.class);
+        return new SearchResponse();
+    }
+
+    public static void main(String[] args) {
+        RequestSearch jerseyRequestSearch = new JerseyRequestSearch();
+        SearchResponse java_hello_world = jerseyRequestSearch.requestAnswers("java hello world");
+        System.out.println(java_hello_world.toString());
     }
 }
