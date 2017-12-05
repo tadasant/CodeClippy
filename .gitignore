@@ -1,5 +1,18 @@
+# IntelliJ Workspace
 .idea/misc.xml
 .idea/workspace.xml
+.idea/kotlinc.xml
+
+
+# Dependencies
 ui/node_modules
+
+
+# Build directories
+build/
 out/
 .gradle/
+
+
+# Misc
+.DS_Store
