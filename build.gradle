@@ -1,0 +1,26 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+}
+
+plugins {
+    id "org.jetbrains.intellij" version "0.1.10"
+}
+
+apply plugin: 'idea'
+apply plugin: 'org.jetbrains.intellij'
+apply plugin: 'java'
+
+intellij {
+    version 'IU-2017.2' // Change this based on what version you have below to run locally successfully
+    alternativeIdePath '/Applications/PyCharm.app' // Used for runIdea gradle task
+    pluginName 'CodeClippy'
+}
+
+group 'org.jetbrains'
+version '0.1.0' // Plugin version
+
+dependencies {
+    compile fileTree(dir: 'lib', include: '*.jar')
+}

@@ -2,3 +2,4 @@
 .idea/workspace.xml
 ui/node_modules
 out/
+.gradle/

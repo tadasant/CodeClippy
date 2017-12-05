@@ -14,6 +14,8 @@
  * limitations under the License.
  */
 
-public class OpenToolWindowTest {
-    // TODO implement functional test for opening the tool window
+package endtoend;
+
+public class LoginTest {
+    // TODO implement end to end test for logging in
 }
