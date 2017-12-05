@@ -1,4 +1,4 @@
-package com.solutionloft.codeclippy;/*
+/*
  * Copyright (c) 2017 SolutionLoft.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,6 +13,8 @@ package com.solutionloft.codeclippy;/*
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+package com.solutionloft.codeclippy;
 
 import com.intellij.openapi.project.Project;
 import com.intellij.openapi.wm.ToolWindow;

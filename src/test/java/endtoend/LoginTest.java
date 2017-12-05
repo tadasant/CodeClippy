@@ -1,4 +1,4 @@
-package endtoend;/*
+/*
  * Copyright (c) 2017 SolutionLoft.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,6 +13,8 @@ package endtoend;/*
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+package endtoend;
 
 public class LoginTest {
     // TODO implement end to end test for logging in
