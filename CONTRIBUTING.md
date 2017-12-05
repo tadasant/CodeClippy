@@ -33,10 +33,10 @@ that comes with IntelliJ, and that you additionally download, install, and enabl
 that generates Gradle tasks used in the development of IntelliJ plugins).
 
 1) git clone this repository
-2) Open in IntelliJ
+2) Open in IntelliJ, click "Import Changes" when you get a gradle notification to do so
 3) Make edits to build.gradle if you don't have PyCharm at /Applications/PyCharm.app
 4) If you want to run on IDEA instead of PyCharm, change both plugin.xml and build.gradle
-5) Run the gradle task "runIdea". This may take a long time because it will download the relevant version of the IDEA
+5) Run the gradle task "runIdea" under Tasks/intellij/runIdea. This may take a long time because it will download the relevant version of the IDEA
  that you referenced. Then this will run the plugin in your chosen alternativeIDE or downloaded IDEA CE.
 
 Note that debugging does not work properly with the above setup. It *should* work if we just run the gradle task
