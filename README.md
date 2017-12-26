@@ -1,3 +1,5 @@
+# Development on CodeClippy is currently *ON HOLD* until further notice
+
 # CodeClippy
 
 Our mission is to make it easy for developers to write high quality code. CodeClippy is a PyCharm plugin that aims to act as a gateway for enabling this vision.
