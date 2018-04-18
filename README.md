@@ -1,4 +1,4 @@
-# Development on CodeClippy is currently *ON HOLD* until further notice
+# This project is retired. No further development or maintenance is planned. Feel free to fork and re-use.
 
 # CodeClippy
 
